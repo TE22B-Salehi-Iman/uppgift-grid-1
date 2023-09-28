@@ -1,0 +1,22 @@
+.bigGrid{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-row: 1fr 4fr 1fr;
+    gap: 10px;
+}
+
+.logo{
+    height: 180px;
+    width: auto;
+}
+
+h1{
+    text-align: center;
+    align-items: center;
+}
+
+footer{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    text-align: center;
+}
